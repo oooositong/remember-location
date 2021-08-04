@@ -19,3 +19,12 @@ const RememberLocation = require('remember-location');
 
 new RememberLocation();
 ```
+
+
+## Bundle Size Comparison
+
+|		   |      Webpack    | rollup  |
+|----------|:-------------:|------:|
+| CommonJS |  2 KB | 5 KB |
+| ES Module |    2 KB   |   5 KB |
+| Universal Module Definition |    2 KB   |   5 KB |
